@@ -2,21 +2,16 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
-        },
-        {
-            "path": "force-app/main/default",
-            "package": "CircleCI",
-            "versionName": "Circle CI - Winter '19",
-            "versionNumber": "1.0.0.NEXT",
-            "default": false
+            "default": true,
+            "package": "Local Time at Address",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "44.0",
     "packageAliases": {
-        "CircleCI": "xxx",
-        "CircleCI@1.0.0-1": "xxx"
+        "Local Time at Address": "0Hof4000000XZIpCAO"
     }
 }
