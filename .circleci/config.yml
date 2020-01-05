@@ -43,7 +43,7 @@ jobs:
           name: Run Apex Tests
           command: |
             #Run unit tests on scratch org
-            sfdx force:apex:test:run --targetusername circle_build_$CIRCLE_BUILD_NUM --wait 10 --resultformat tap --codecoverage --testlevel $TESTLEVEL
+            # sfdx force:apex:test:run --targetusername circle_build_$CIRCLE_BUILD_NUM --wait 10 --resultformat tap --codecoverage --testlevel $TESTLEVEL
       - run:
           name: Delete Scratch Org
           command: |
@@ -77,7 +77,7 @@ jobs:
           name: Run Unit Tests on Scratch Org
           command: |
             #Run unit tests on scratch org
-            sfdx force:apex:test:run --targetusername installorg --wait 10 --resultformat tap --codecoverage --testlevel $TESTLEVEL
+            # sfdx force:apex:test:run --targetusername installorg --wait 10 --resultformat tap --codecoverage --testlevel $TESTLEVEL
       - run:
           name: Delete Scratch org
           command: |
