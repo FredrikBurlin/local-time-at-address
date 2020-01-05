@@ -10,7 +10,7 @@
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "44.0",
+    "sourceApiVersion": "47.0",
     "packageAliases": {
         "Local Time at Address": "0Hof4000000XZIpCAO"
     }
