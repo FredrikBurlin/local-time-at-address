@@ -90,7 +90,7 @@ jobs:
             PackageVersionId=$(</tmp/packageversion.txt)
             #Install package in PROD
             # sfdx force:package2:version:update -i $PackageVersionId -s
-            sfdx force:package:version:promote --package $PackageVersionId
+            sfdx force:package:version:promote --package $PackageVersionId --noprompt
             sfdx force:package:version:report --package $PackageVersionId
             sfdx force:package:install --package $PackageVersionId --wait 10 --targetusername HubOrg
   # deploy:
